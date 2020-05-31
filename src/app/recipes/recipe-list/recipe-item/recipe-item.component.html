@@ -1,0 +1,22 @@
+<div class="list-group">
+    <a 
+   [routerLink] ="[index]"
+    class="list-group-item list-group-item-action">
+        <div class="float-left">
+            <h4 class="list-group-item-heading">
+                {{recipe.name}}
+            </h4>
+            <p class="list-group-item-text">
+                {{recipe.description}}
+            </p>
+        </div>
+        <span class="float-right">
+            <img alt="" src="{{recipe.imagePath}}" class="img-responsive" style="max-height:50px" >
+        </span>
+
+      
+
+    </a>
+  
+  </div>
+
